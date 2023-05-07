@@ -1,5 +1,10 @@
 # 210finalproject
 DS 210 Final Project
+
+
+PLEASE NOTE: THE DATASET IS ATTACHED IN THE GRADESCOPE SUBMISSION. I DID NOT FEEL COMFORTABLE POSTING THE PUBLIC DATASET ONLINE DUE TO IT CONTAINING INFORMATION PERSONAL TO THE USER. In the dataset attached on gradescope, columns such as name, zipcode, and email address have been removed. 
+
+
 A bulk of the work for this project was the research and note-taking on these two concepts, even though they are pretty straight forward. Imagine a graph network as a series of pipes, and you’re trying to push an amount of liquid through the pipes. You want to choose a path that produces the maximum amount of flow in a minimum capacity ‘cut’, which is merely a partitioning of the vertices into subsets. So an ‘s-t’ cut refers to the maximum amount of flow being pushed through a sink node s, through a minimum cut of a network, and then to the source node t. The Ford-Fulkerson algorithm tackles this problem by iteratively searching for the path that it can push the most flow through, given each edge has a ‘capacity’ of how much flow it can hold. 
 	To apply this thinking for our dataset you need to become slightly familiar with the family business. 
 	During each day beginning at 9am there is a tour every 1.5 hours until closing for a total of 6 tours per day. Each tour can seat a maximum of 56 people, and every row in the dataset represents a customer booking, for which there are roughly 10,000 of. From here we can think of the tours as nodes in our graph network and the amount of bookings as the edges that connect them, an edge with a capacity of 56 and a weight corresponding to how many people have signed up.  
