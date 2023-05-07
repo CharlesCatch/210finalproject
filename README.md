@@ -2,7 +2,7 @@
 DS 210 Final Project
 
 
-PLEASE NOTE: THE DATASET IS ATTACHED IN THE GRADESCOPE SUBMISSION. I DID NOT FEEL COMFORTABLE POSTING THE PUBLIC DATASET ONLINE DUE TO IT CONTAINING INFORMATION PERSONAL TO THE USER. In the dataset attached on gradescope, columns such as name, zipcode, and email address have been removed. 
+PLEASE NOTE: ASPECTS OF THIS DATASET PREVIOUSLY CONTAINED INFORMATION PERSONAL TO THE USER I HAVE SINCE REMOVED THIS COLUMNS AS THEY ARE NOT RELEVANT TO THE PROJECT. In the dataset attached on gradescope, columns such as name, zipcode, and email address have been removed. 
 
 
 A bulk of the work for this project was the research and note-taking on these two concepts, even though they are pretty straight forward. Imagine a graph network as a series of pipes, and you’re trying to push an amount of liquid through the pipes. You want to choose a path that produces the maximum amount of flow in a minimum capacity ‘cut’, which is merely a partitioning of the vertices into subsets. So an ‘s-t’ cut refers to the maximum amount of flow being pushed through a sink node s, through a minimum cut of a network, and then to the source node t. The Ford-Fulkerson algorithm tackles this problem by iteratively searching for the path that it can push the most flow through, given each edge has a ‘capacity’ of how much flow it can hold. 
